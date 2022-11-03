@@ -1,7 +1,7 @@
 #title{
     background-color:#ff4c68 ;
     color: #fff;
-   
+
 }
 body{
     font-family: "Montserrat";
@@ -26,7 +26,8 @@ p{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
+
     /* background-color: green; */
 
 }
@@ -54,7 +55,9 @@ p{
 
 .title-img{
     transform:  rotate(25deg);
-    width: 50%;
+    width: 18%;
+    position: absolute;
+    left: 60%;
 }
 .feature-box{
     font-family: sans-serif;
@@ -63,7 +66,10 @@ p{
     padding: 5%;
 }
 #features{
-   padding: 7% 15%; 
+   padding: 7% 15%;
+   background-color: white;
+   position: relative;
+
 
 
 }
@@ -75,7 +81,7 @@ p{
     color: #ff4c68;
 }
 #testimonials{
-    
+
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -91,7 +97,7 @@ p{
     text-align: center;
     padding-bottom: 3%;
     align-items: center;
-    
+
 }
 .testimonial-image{
     width: 15%;
@@ -100,4 +106,37 @@ p{
 .carousel-item{
     padding: 7% 15%;
 
+}
+
+#cta{
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  color:#fff;
+  text-align: center
+
+}
+.cta-heading{
+  font-family: 'Montserrat';
+  font-size:3.5rem;
+  line-height:1.5;
+
+}
+.social-icons{
+  padding:20px 10px;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center
+  }
+    .title-img{
+      width: 50%;
+      position: static;
+      transform: rotate(0);
+
+    }
 }
